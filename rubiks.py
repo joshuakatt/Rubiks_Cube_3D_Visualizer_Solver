@@ -272,7 +272,7 @@ class InteractiveCube(plt.Axes):
         self._initialize_widgets()
 
         # write some instructions
-        self.figure.text(0.05, 0.05,
+        self.figure.text(0.05, 0.9,
                          "You can use the Mouse or Arrow Keys to interact with the cube\n"
                          "U/D/L/R/B/F keys turn faces\n"
                          "(hold shift for counter-clockwise)",
