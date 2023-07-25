@@ -58,7 +58,7 @@ class Rotation_vector_handler:
                          + prod[2, 0] + prod[3, 1]),
                         (prod[0, 3] + prod[1, 2]
                          - prod[2, 1] + prod[3, 0])],
-                       dtype=np.float,
+                       dtype=float,
                        order='F').T
         return self.__class__(ret.reshape(return_shape))
 
